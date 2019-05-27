@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="javaScript/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <div id="container">
+      <nav>
+          <span>留言板 </span>
+          <span>I think you have something to say to me</span>
+      </nav>
+      <form method="GET" onsubmit="return false" action="/">
+          <span>您的姓名:</span>
+          <input type="text" value="" name="name" placeholder="  please write your name ..." class="name"><br>
+          <span>留言内容:</span>
+          <textarea  name="content"  placeholder="  please to write ..."  class="content"></textarea><br>
+          <input type="button" value="发表" id="submit">
+      </form>
+  </div>
+<script src="javaScript/goto.js"></script>
+</body>
+</html>
