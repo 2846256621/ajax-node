@@ -1,4 +1,4 @@
-# ajax-node
+# message-board  留言板
 #### 更新留言板：
 - 所有页面及请求都搭建在服务器上
 - 运用了art-template模板去渲染页面，去代替多余的页面请求
