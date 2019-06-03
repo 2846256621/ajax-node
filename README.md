@@ -1,5 +1,5 @@
 
-####1.master分支
+#### 1.master分支
 #### ajax+node
 - 是用了原生js和jquery两种方法实现的ajax
 - 服务器只处理了页面请求
@@ -12,7 +12,7 @@
  - 每次得开启服务器，才能打开页面
  - 访问地址http://localhost:8080/+请求
  
- ####2.second分支(更新)
+ #### 2.second分支(更新)
  - 运用了art-template模板，去代替多余的页面请求
  - 合并了resource资源读取 css/iamge/javascript
  
