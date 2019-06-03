@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #big{
+            width: 100px;
+            position: relative;
+            left: 300px;
+            top:50px;
+        }
+        #ear:before,#ear:after{
+            content: '';
+            position: relative;
+            display: block;
+            width: 90px;
+            height: 100px;
+            top:165px;
+            border: 2px solid #333333;
+            border-radius: 50%;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            background-color: #9b6335;
+        }
+        #ear:after{
+            left: 212px;
+            top:65px;
+        }
+        #div{
+            position: relative;
+            width: 300px;
+            height: 200px;
+            border: 1px solid #333333;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #9b6335;
+            border-radius: 8px;
+        }
+        #div:before,#div:after{
+            font-size: 30px;
+            text-align: center;
+            height: 30px;
+            width: 30px;
+            background-color: #45464b;
+            position: relative;
+            border-radius: 50%;
+            font-weight: bolder;
+            color: #d4d7ed;
+
+        }
+        #div:before{
+            content: open-quote;
+            right: 20px;
+        }
+        #div:after{
+            content: close-quote;
+            left:20px
+
+        }
+        #little{
+            position: relative;
+        }
+        #little:after{
+            content: "";
+            display: block;
+            width: 100px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid #333333;
+            top:50px;
+            position: relative;
+            background-color: #db6784;
+        }
+    </style>
+</head>
+<body>
+<div id="big">
+    <div id="ear"></div>
+    <div id="div">
+        <div id="little"></div>
+    </div>
+</div>
+</body>
+</html>
